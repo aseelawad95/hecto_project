@@ -1,0 +1,40 @@
+@import url('./base.css');
+
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+gap: 35px;
+}
+
+nav a{
+    color: #0D0E43;
+}
+
+nav a:hover{
+    color: var(--mainColor);
+}
+
+.border-0{
+    border: 0;
+}
+
+.bars{
+    display: none;
+}
+
+@media screen and (max-width : 1200px){
+    .header nav,.header form {
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+}
+
+@media screen  {
+    
+}
