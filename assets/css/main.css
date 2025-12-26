@@ -1,8 +1,5 @@
 @import url('./base.css');
 
-
-
-
 nav ul{
     display: flex;
     align-items: center;
@@ -33,8 +30,4 @@ nav a:hover{
     .bars{
         display: block;
     }
-}
-
-@media screen  {
-    
 }
